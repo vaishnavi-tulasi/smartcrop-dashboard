@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f8fafc;
+}
+
+/* Navbar */
+.navbar {
+  background: #16a34a;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #0f172a;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+/* Content */
+.content {
+  padding: 20px;
+  width: 100%;
+}
+
+/* Cards */
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
